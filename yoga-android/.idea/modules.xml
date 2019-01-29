@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga/yoga.iml" filepath="$PROJECT_DIR$/yoga/yoga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yoga/yoga.iml" filepath="$PROJECT_DIR$/yoga/yoga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yoga-android.iml" filepath="$PROJECT_DIR$/yoga-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga-android.iml" filepath="$PROJECT_DIR$/yoga-android.iml" />
     </modules>
   </component>

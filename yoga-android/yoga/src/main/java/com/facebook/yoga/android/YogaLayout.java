@@ -180,7 +180,9 @@ public class YogaLayout extends ViewGroup {
    * @param node The Yoga node belonging to the view
    */
   public void addView(View child, YogaNode node) {
+    mYogaNode.setMeasureFunction(null);
     mYogaNodes.put(child, node);
+    mYogaNode.addChildAt(node, mYogaNode.getChildCount());
     addView(child);
   }
 

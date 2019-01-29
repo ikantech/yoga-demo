@@ -4,7 +4,10 @@
  * This source code is licensed under the MIT license found in the LICENSE
  * file in the root directory of this source tree.
  */
-#include <jni.h>
+#include <fb/fbjni.h>
+#ifndef DISABLE_CPUCAP
+#include <fb/CpuCapabilities.h>
+#endif
 #include <yoga/YGNode.h>
 #include <yoga/Yoga.h>
 #include <iostream>
@@ -661,8 +664,18 @@ jint jni_YGNodeGetInstanceCount() {
 #define YGMakeNativeMethod(name) makeNativeMethod(#name, name)
 #define YGMakeCriticalNativeMethod(name) makeCriticalNativeMethod(#name, name)
 
+void initialize_xplatinit();
+void initialize_fbjni();
+
 jint JNI_OnLoad(JavaVM* vm, void*) {
   return initialize(vm, [] {
+      initialize_fbjni();
+#ifndef DISABLE_XPLAT
+      initialize_xplatinit();
+#endif
+#ifndef DISABLE_CPUCAP
+      initialize_cpucapabilities();
+#endif
     registerNatives(
         "com/facebook/yoga/YogaNode",
         {
