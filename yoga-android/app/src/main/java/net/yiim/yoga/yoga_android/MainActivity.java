@@ -3,6 +3,7 @@ package net.yiim.yoga.yoga_android;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.widget.TextView;
 
 import com.facebook.soloader.SoLoader;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         rootViewNode.setAlignItems(YogaAlign.CENTER);
 
         TextView text1 = new TextView(this);
+        text1.setGravity(Gravity.CENTER);
+
         YogaNode text1Node = new YogaNode();
         text1Node.setMeasureFunction(new YogaLayout.ViewMeasureFunction());
         text1Node.setData(text1);

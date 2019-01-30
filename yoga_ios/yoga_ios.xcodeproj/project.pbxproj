@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B71C4B2201387D00B1B93D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C4A2201387D00B1B93D /* AppDelegate.m */; };
+		85B71C4E2201387D00B1B93D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C4D2201387D00B1B93D /* ViewController.m */; };
+		85B71C512201387D00B1B93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B71C4F2201387D00B1B93D /* Main.storyboard */; };
+		85B71C532201387F00B1B93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B71C522201387F00B1B93D /* Assets.xcassets */; };
+		85B71C562201387F00B1B93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B71C542201387F00B1B93D /* LaunchScreen.storyboard */; };
+		85B71C592201388000B1B93D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C582201388000B1B93D /* main.m */; };
+		85B71C7D22013C3800B1B93D /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C6822013C3800B1B93D /* Utils.cpp */; };
+		85B71C7E22013C3800B1B93D /* YGLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C6B22013C3800B1B93D /* YGLayout.cpp */; };
+		85B71C7F22013C3800B1B93D /* Yoga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C6E22013C3800B1B93D /* Yoga.cpp */; };
+		85B71C8022013C3800B1B93D /* YGStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C6F22013C3800B1B93D /* YGStyle.cpp */; };
+		85B71C8122013C3800B1B93D /* YGNodePrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7122013C3800B1B93D /* YGNodePrint.cpp */; };
+		85B71C8222013C3800B1B93D /* YGEnums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7322013C3800B1B93D /* YGEnums.cpp */; };
+		85B71C8322013C3800B1B93D /* YGValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7422013C3800B1B93D /* YGValue.cpp */; };
+		85B71C8422013C3800B1B93D /* YGConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7722013C3800B1B93D /* YGConfig.cpp */; };
+		85B71C8522013C3800B1B93D /* YGNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7822013C3800B1B93D /* YGNode.cpp */; };
+		85B71C8622013C3800B1B93D /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7B22013C3800B1B93D /* YGLayout.m */; };
+		85B71C8722013C3800B1B93D /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B71C7C22013C3800B1B93D /* UIView+Yoga.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85B71C462201387D00B1B93D /* yoga_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoga_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B71C492201387D00B1B93D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85B71C4A2201387D00B1B93D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85B71C4C2201387D00B1B93D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85B71C4D2201387D00B1B93D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85B71C502201387D00B1B93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B71C522201387F00B1B93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B71C552201387F00B1B93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85B71C572201387F00B1B93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B71C582201388000B1B93D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85B71C6022013C3800B1B93D /* YGLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YGLayout+Private.h"; sourceTree = "<group>"; };
+		85B71C6122013C3800B1B93D /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		85B71C6322013C3800B1B93D /* YGFloatOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGFloatOptional.h; sourceTree = "<group>"; };
+		85B71C6422013C3800B1B93D /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		85B71C6522013C3800B1B93D /* CompactValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompactValue.h; sourceTree = "<group>"; };
+		85B71C6622013C3800B1B93D /* Yoga-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Yoga-internal.h"; sourceTree = "<group>"; };
+		85B71C6722013C3800B1B93D /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		85B71C6822013C3800B1B93D /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		85B71C6922013C3800B1B93D /* YGNodePrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNodePrint.h; sourceTree = "<group>"; };
+		85B71C6A22013C3800B1B93D /* YGEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGEnums.h; sourceTree = "<group>"; };
+		85B71C6B22013C3800B1B93D /* YGLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGLayout.cpp; sourceTree = "<group>"; };
+		85B71C6C22013C3800B1B93D /* YGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNode.h; sourceTree = "<group>"; };
+		85B71C6D22013C3800B1B93D /* YGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMacros.h; sourceTree = "<group>"; };
+		85B71C6E22013C3800B1B93D /* Yoga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Yoga.cpp; sourceTree = "<group>"; };
+		85B71C6F22013C3800B1B93D /* YGStyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGStyle.cpp; sourceTree = "<group>"; };
+		85B71C7022013C3800B1B93D /* Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yoga.h; sourceTree = "<group>"; };
+		85B71C7122013C3800B1B93D /* YGNodePrint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGNodePrint.cpp; sourceTree = "<group>"; };
+		85B71C7222013C3800B1B93D /* YGStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGStyle.h; sourceTree = "<group>"; };
+		85B71C7322013C3800B1B93D /* YGEnums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGEnums.cpp; sourceTree = "<group>"; };
+		85B71C7422013C3800B1B93D /* YGValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGValue.cpp; sourceTree = "<group>"; };
+		85B71C7522013C3800B1B93D /* YGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
+		85B71C7622013C3800B1B93D /* YGMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMarker.h; sourceTree = "<group>"; };
+		85B71C7722013C3800B1B93D /* YGConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGConfig.cpp; sourceTree = "<group>"; };
+		85B71C7822013C3800B1B93D /* YGNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YGNode.cpp; sourceTree = "<group>"; };
+		85B71C7922013C3800B1B93D /* YGValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGValue.h; sourceTree = "<group>"; };
+		85B71C7A22013C3800B1B93D /* UIView+Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yoga.h"; sourceTree = "<group>"; };
+		85B71C7B22013C3800B1B93D /* YGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLayout.m; sourceTree = "<group>"; };
+		85B71C7C22013C3800B1B93D /* UIView+Yoga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yoga.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B71C432201387D00B1B93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85B71C3D2201387D00B1B93D = {
+			isa = PBXGroup;
+			children = (
+				85B71C482201387D00B1B93D /* yoga_ios */,
+				85B71C472201387D00B1B93D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85B71C472201387D00B1B93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B71C462201387D00B1B93D /* yoga_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B71C482201387D00B1B93D /* yoga_ios */ = {
+			isa = PBXGroup;
+			children = (
+				85B71C5F22013C3800B1B93D /* YogaKit */,
+				85B71C492201387D00B1B93D /* AppDelegate.h */,
+				85B71C4A2201387D00B1B93D /* AppDelegate.m */,
+				85B71C4C2201387D00B1B93D /* ViewController.h */,
+				85B71C4D2201387D00B1B93D /* ViewController.m */,
+				85B71C4F2201387D00B1B93D /* Main.storyboard */,
+				85B71C522201387F00B1B93D /* Assets.xcassets */,
+				85B71C542201387F00B1B93D /* LaunchScreen.storyboard */,
+				85B71C572201387F00B1B93D /* Info.plist */,
+				85B71C582201388000B1B93D /* main.m */,
+			);
+			path = yoga_ios;
+			sourceTree = "<group>";
+		};
+		85B71C5F22013C3800B1B93D /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				85B71C6022013C3800B1B93D /* YGLayout+Private.h */,
+				85B71C6122013C3800B1B93D /* YGLayout.h */,
+				85B71C6222013C3800B1B93D /* yoga */,
+				85B71C7A22013C3800B1B93D /* UIView+Yoga.h */,
+				85B71C7B22013C3800B1B93D /* YGLayout.m */,
+				85B71C7C22013C3800B1B93D /* UIView+Yoga.m */,
+			);
+			path = YogaKit;
+			sourceTree = "<group>";
+		};
+		85B71C6222013C3800B1B93D /* yoga */ = {
+			isa = PBXGroup;
+			children = (
+				85B71C6322013C3800B1B93D /* YGFloatOptional.h */,
+				85B71C6422013C3800B1B93D /* Utils.h */,
+				85B71C6522013C3800B1B93D /* CompactValue.h */,
+				85B71C6622013C3800B1B93D /* Yoga-internal.h */,
+				85B71C6722013C3800B1B93D /* YGLayout.h */,
+				85B71C6822013C3800B1B93D /* Utils.cpp */,
+				85B71C6922013C3800B1B93D /* YGNodePrint.h */,
+				85B71C6A22013C3800B1B93D /* YGEnums.h */,
+				85B71C6B22013C3800B1B93D /* YGLayout.cpp */,
+				85B71C6C22013C3800B1B93D /* YGNode.h */,
+				85B71C6D22013C3800B1B93D /* YGMacros.h */,
+				85B71C6E22013C3800B1B93D /* Yoga.cpp */,
+				85B71C6F22013C3800B1B93D /* YGStyle.cpp */,
+				85B71C7022013C3800B1B93D /* Yoga.h */,
+				85B71C7122013C3800B1B93D /* YGNodePrint.cpp */,
+				85B71C7222013C3800B1B93D /* YGStyle.h */,
+				85B71C7322013C3800B1B93D /* YGEnums.cpp */,
+				85B71C7422013C3800B1B93D /* YGValue.cpp */,
+				85B71C7522013C3800B1B93D /* YGConfig.h */,
+				85B71C7622013C3800B1B93D /* YGMarker.h */,
+				85B71C7722013C3800B1B93D /* YGConfig.cpp */,
+				85B71C7822013C3800B1B93D /* YGNode.cpp */,
+				85B71C7922013C3800B1B93D /* YGValue.h */,
+			);
+			path = yoga;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B71C452201387D00B1B93D /* yoga_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B71C5C2201388000B1B93D /* Build configuration list for PBXNativeTarget "yoga_ios" */;
+			buildPhases = (
+				85B71C422201387D00B1B93D /* Sources */,
+				85B71C432201387D00B1B93D /* Frameworks */,
+				85B71C442201387D00B1B93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yoga_ios;
+			productName = yoga_ios;
+			productReference = 85B71C462201387D00B1B93D /* yoga_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B71C3E2201387D00B1B93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yiim;
+				TargetAttributes = {
+					85B71C452201387D00B1B93D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 85B71C412201387D00B1B93D /* Build configuration list for PBXProject "yoga_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B71C3D2201387D00B1B93D;
+			productRefGroup = 85B71C472201387D00B1B93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B71C452201387D00B1B93D /* yoga_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B71C442201387D00B1B93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B71C562201387F00B1B93D /* LaunchScreen.storyboard in Resources */,
+				85B71C532201387F00B1B93D /* Assets.xcassets in Resources */,
+				85B71C512201387D00B1B93D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B71C422201387D00B1B93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B71C8622013C3800B1B93D /* YGLayout.m in Sources */,
+				85B71C4E2201387D00B1B93D /* ViewController.m in Sources */,
+				85B71C8522013C3800B1B93D /* YGNode.cpp in Sources */,
+				85B71C8422013C3800B1B93D /* YGConfig.cpp in Sources */,
+				85B71C8222013C3800B1B93D /* YGEnums.cpp in Sources */,
+				85B71C7E22013C3800B1B93D /* YGLayout.cpp in Sources */,
+				85B71C8022013C3800B1B93D /* YGStyle.cpp in Sources */,
+				85B71C8122013C3800B1B93D /* YGNodePrint.cpp in Sources */,
+				85B71C8322013C3800B1B93D /* YGValue.cpp in Sources */,
+				85B71C592201388000B1B93D /* main.m in Sources */,
+				85B71C7F22013C3800B1B93D /* Yoga.cpp in Sources */,
+				85B71C4B2201387D00B1B93D /* AppDelegate.m in Sources */,
+				85B71C8722013C3800B1B93D /* UIView+Yoga.m in Sources */,
+				85B71C7D22013C3800B1B93D /* Utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85B71C4F2201387D00B1B93D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B71C502201387D00B1B93D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B71C542201387F00B1B93D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B71C552201387F00B1B93D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B71C5A2201388000B1B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85B71C5B2201388000B1B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B71C5D2201388000B1B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASVQ2X7KX8;
+				INFOPLIST_FILE = yoga_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yiim.yoga-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B71C5E2201388000B1B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASVQ2X7KX8;
+				INFOPLIST_FILE = yoga_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yiim.yoga-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B71C412201387D00B1B93D /* Build configuration list for PBXProject "yoga_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B71C5A2201388000B1B93D /* Debug */,
+				85B71C5B2201388000B1B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B71C5C2201388000B1B93D /* Build configuration list for PBXNativeTarget "yoga_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B71C5D2201388000B1B93D /* Debug */,
+				85B71C5E2201388000B1B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B71C3E2201387D00B1B93D /* Project object */;
+}
